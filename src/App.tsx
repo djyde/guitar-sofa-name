@@ -139,7 +139,6 @@ const GuitarKey: React.FC<GuitarKeyProps> = ({ keyName }) => {
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   const [selectedKey, setSelectedKey] = useState('C');
 
